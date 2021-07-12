@@ -6,9 +6,13 @@
     <script src="main.js"></script>
 </head>
 <body>
+    <div id="title">
+        <header>This is some title</header>
+    </div>
 </body>
 <nav>
     <div id="sidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="services.html">Services</a>
@@ -16,7 +20,7 @@
         <a href="contact.html">Contact us</a>
     </div>
 
-    <span onclick="openNav()">Menu</span>
+    <button onclick="openNav()" class="mainbutton">Menu</button>
 
     <div id="main">
 
